@@ -38,6 +38,8 @@ Raw Data  [Cluster.csv_Datafile](https://github.com/shriya2911/Customer-Segmenta
   
 - The elbow at k=3 indicates that adding more cluster yields diminishing returns in explaoning data variance.
 
+![Elbow Plot](https://github.com/shriya2911/Customer-Segmentation/blob/main/Images/Elbow_Graph.png)
+
 ## Clustering — KMeans (Before PCA)
 The initial KMeans clustering on yearly_trips and budget produced three well-separated clusters.
 The plot below demonstrates clear group boundaries, validating the choice of input variables and confirming that business travelers fall into distinct behavioral segments.
@@ -62,6 +64,8 @@ The plot below demonstrates clear group boundaries, validating the choice of inp
   - Travel most often, with mid-range budgets.
 
   - Possibly sales, consulting, or regional operations professionals.
+ 
+  ![K-Means Before PCA](https://github.com/shriya2911/Customer-Segmentation/blob/main/Images/K-Means_BeforePCA.png)
 
 ## PCA Analysis & Post-PCA Clustering
 
@@ -69,6 +73,8 @@ The plot below demonstrates clear group boundaries, validating the choice of inp
 - The transformation retained ~100% of the total variance, indicating no information loss.
 When KMeans clustering was performed on the PCA-transformed data, the results perfectly matched the original clusters, as confirmed by a one-to-one mapping in the confusion matrix.
 - This validates that the clusters are robust and independent of coordinate orientation.
+
+![K-Means After PCA](https://github.com/shriya2911/Customer-Segmentation/blob/main/Images/K-means_AfterPCA.png)
 
 ## Key Insights
 - **Clear Segmentation:** Distinct separation in both budget and trip frequency across clusters.
