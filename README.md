@@ -29,7 +29,7 @@ The findings revealed three clear traveler profiles with distinct spending and t
 
 
 **Source** 
-Raw Data  [Excel_Datafile](https://insideairbnb.com/get-the-data)
+Raw Data  [Excel_Datafile](https://github.com/shriya2911/Customer-Segmentation/commit/d99b192876cde7f8b27dfef81626b920ba7bcb7f)
 
 ## Choosing the Number of Clusters- Elbow Method 
 - The Elbow Method was applied to determine the optimal number of clusters. The plot of within-cluster sum of squares (intertia) versus k, shows a sharp decline from k=1 to k=3, after which the curve flattens significantly. This “elbow” at k = 3 indicates that adding more clusters yields diminishing returns in explaining data variance.
