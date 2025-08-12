@@ -1,6 +1,6 @@
 # Busienss Travel Segmentation - K Means , Agglomerative, and PCA
 
-A focused clustering analysis in Python to segment business travelers based on yearly travel frequency and annual travel budget.
+A focused clustering analysis in Python to segment travelers based on yearly travel frequency and annual travel budget.
 The workflow included KMeans and Agglomerative Clustering, followed by PCA-based dimensionality reduction to assess stability and variance retention.
 The findings revealed three clear traveler profiles with distinct spending and travel patterns, providing actionable insights for targeted marketing and personalized service strategies.
 
